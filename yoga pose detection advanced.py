@@ -64,7 +64,7 @@ def detect_landmarks_on_webcam(reference_landmarks):
     cap.release()
     cv2.destroyAllWindows()
 
-image_path = "C:/Users/dipto/Downloads/tadasana.jpg"
+image_path = "tadasana.jpg" #replace with whatever your image is named, this is a sample.
 image, reference_landmarks = detect_landmarks_on_image(image_path)
 
 detect_landmarks_on_webcam(reference_landmarks)
